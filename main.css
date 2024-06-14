@@ -1,3 +1,19 @@
 * {
     font-family: 'ABeeZee', serif;
 }
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.links a:hover {
+    background-color: #414141;
+    transition: background-color 0.2s ease-in-out;
+}
