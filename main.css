@@ -1,13 +1,30 @@
 * {
     font-family: 'ABeeZee', serif;
+    margin: 0px;
 }
 
 .flexbox {
-    display: flex;
-    height: 200px;
-    
+    display: flex;    
 }
-.flexbox a {
+
+.title {
+    flex: 3 1 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.details {
+    flex: 2 1 0;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.links a {
+    height: 200px;
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -18,7 +35,7 @@
 }
 
 
-.flexbox a:hover {
+.links a:hover {
     background-color: #414141;
     transition: background-color 0.2s ease-in-out;
 }
